@@ -6,6 +6,6 @@ if(fardinAge > mahamudAge){
 }else if(fardinAge < mahamudAge){
     age = 'Fardin is littel then mahamud' + ' , ' + 'Mahaud is elder then Fardin'
 }else{
-    age = 'The are equal'
+    age = 'They are equal'
 }
 document.getElementById("age").innerHTML = age
