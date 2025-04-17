@@ -2,9 +2,10 @@ let n = 7
 let m = 4
 
 if(n > m){
-    console.log('n greather than m')
+    result = 'n greather than m'
 }else if(m > n){
-    console.log('m is greather than n')
+    result = 'm is greather than n'
 }else{
-    console.log('Both are same')
+    result = 'Both are same'
 }
+document.getElementById("equal").innerHTML = result

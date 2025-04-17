@@ -1,11 +1,13 @@
 let num = 0
 if (num > 0) {
-    console.log('output = "The number is Positive."');
+    output = "The number is Positive.";
   } else if (num < 0) {
-   console.log ('output = "The number is Negative."');
+   output = "The number is Negative.";
   } else if (num === 0) {
-    console.log('output = "The number is Zero."');
+    output = "The number is Zero.";
   } else {
-    console.log('output = "Please enter a valid number."');
+    output = "Please enter a valid number.";
   }
+
+document.getElementById("demo").innerHTML = output;
   

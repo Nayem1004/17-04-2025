@@ -2,9 +2,10 @@ let fardinAge = 28
 let mahamudAge = 29
 
 if(fardinAge > mahamudAge){
-    console.log('Fardin is elder then mahamud' + ' ' + 'Mahaud is littel then Fardin')
+    age = 'Fardin is elder then mahamud' + ' , ' + 'Mahaud is littel then Fardin'
 }else if(fardinAge < mahamudAge){
-    console.log('Fardin is littel then mahamud' + ' ' + 'Mahaud is elder then Fardin')
+    age = 'Fardin is littel then mahamud' + ' , ' + 'Mahaud is elder then Fardin'
 }else{
-    console.log('The are equal')
+    age = 'The are equal'
 }
+document.getElementById("age").innerHTML = age
